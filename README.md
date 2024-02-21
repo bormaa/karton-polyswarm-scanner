@@ -3,7 +3,7 @@
 A modular [Karton Framework](https://github.com/CERT-Polska/karton) service that Scan and pull scan results from Polyswarm API and use antivirus scan results to pull family using [PolyUnite](https://github.com/polyswarm/polyunite)
 
 ![objects](results.png)
-*MWEB Scan Results*
+*MWDB Scan Results*
 
 **Consumes:**
 ```json
