@@ -62,13 +62,3 @@ $ pip install ./polyunite
 $ pip install polyswarm_api karton-core
 $ python3 -m karton.scanner
 ```
-
-# Testing Your Installation
-
-Once you have completed installing `karton-unpacker`, try uploading the file `tests/shellcode.exe` to mwdb.
-
-If successful, you will see a file in relations with the name `unpacked`, this is the extracted shellcode to spawn `cmd.exe`.
-
-# Contributing
-
-If you wish to contribute your own modules to automatically unpack malware, please refer to [CONTRIBUTING.md](https://github.com/c3rb3ru5d3d53c/karton-unpacker/blob/master/CONTRIBUTING.md)
