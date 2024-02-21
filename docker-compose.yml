@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  karton-polyswarm-scanner:
+    build: ./
+    environment:
+      POLYSWARM_API: "POLYSWARM_APIKEY"
+    volumes:
+      - ./config/karton.docker.ini:/etc/karton/karton.ini
